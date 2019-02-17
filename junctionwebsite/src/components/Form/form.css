@@ -1,0 +1,17 @@
+input {
+  color: black;
+}
+
+.form {
+  padding: 35%;
+  background-color: white;
+  border: solid black;
+}
+
+.form-box {
+  padding-top: 7%;
+}
+
+.btn-small {
+  width: 100%;
+}

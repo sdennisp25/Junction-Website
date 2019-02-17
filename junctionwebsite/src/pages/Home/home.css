@@ -1,0 +1,38 @@
+h5 {
+	color: white;
+	font-family: "Lobster", cursive;
+}
+
+hr {
+	width: 20%;
+}
+
+.logo-header { 
+	text-align: center;
+	font-weight: bold;
+	width: 45%;
+	margin: 0 auto;
+	margin-bottom: 5%;
+	border-top: 10px solid rgb(252,194,1,0.3);
+	border-bottom: 10px solid rgb(252,194,1,0.3);
+	background-color: rgb(0,0,0,0.5);
+	padding: 0.5%;
+}
+
+.btn {
+	z-index: 0;
+	margin-top: 1%;
+	background-color: #FF6600;
+}
+
+.logo-title {
+	color: white;
+	font-size: 60px;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.logo-box {
+	text-align: center;
+	margin-bottom: 10%;
+}
