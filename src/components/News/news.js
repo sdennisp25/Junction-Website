@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./news.css";
 
 class News extends Component {
@@ -22,7 +23,7 @@ class News extends Component {
                   </p>
                 </div>
                 <div className="card-action">
-                  <a href="#">Learn more</a>
+                  <Link href="#">Learn more</Link>
                 </div>
               </div>
             </div>

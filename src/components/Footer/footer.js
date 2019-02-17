@@ -62,18 +62,24 @@ const Footer = () => (
             <h5 class="white-text">Thank You To Our Sponsors</h5>
             <div class="row sponsors">
               <Link to="https://slcherc.com/" target="_blank">
-                <img className="herc" src={require("./images/herc.png")} />
+                <img
+                  className="herc"
+                  src={require("./images/herc.png")}
+                  alt="The Herc"
+                />
               </Link>
               <Link to="https://slcherc.com/" target="_blank">
                 <img
                   className="millennium"
                   src={require("./images/millennium.png")}
+                  alt="Millennium"
                 />
               </Link>
               <Link to="https://slcherc.com/" target="_blank">
                 <img
                   className="emotion"
                   src={require("./images/emotion.jpeg")}
+                  alt="Emotion"
                 />
               </Link>
             </div>

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Container } from "../../components/Grid";
 import { Parallax } from "react-parallax";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
