@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./news.css";
 
 class News extends Component {
@@ -23,7 +23,7 @@ class News extends Component {
                   </p>
                 </div>
                 <div className="card-action">
-                  <Link href="#">Learn more</Link>
+                  {/* <Link href="#">Learn more</Link> */}
                 </div>
               </div>
             </div>
