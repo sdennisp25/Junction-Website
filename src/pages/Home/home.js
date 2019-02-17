@@ -40,8 +40,6 @@ const Home = props => (
           Upcoming Classes!
         </Link>
       </div>
-      {/* <div className="logo-header"> */}
-      {/* </div> */}
     </Parallax>
     <Container>
       <Events />

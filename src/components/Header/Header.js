@@ -39,13 +39,13 @@ class Header extends Component {
                 <Link to={"/about"}>About</Link>
               </li>
               <li>
-                <Link to={"/classes"}>Classes</Link>
+                {/* <Link to={"/classes"}>Classes</Link> */}
               </li>
               <li>
                 <Link to={"/gallery"}>Gallery</Link>
               </li>
               <li>
-                <Link to={"/contact"}>Contact</Link>
+                {/* <Link to={"/contact"}>Contact</Link> */}
               </li>
             </ul>
           </div>
