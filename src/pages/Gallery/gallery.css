@@ -70,7 +70,7 @@
   margin: 0;
 	z-index: 1;
 }
-.image7 {
+/* .image7 {
   background-image: url(./images/paige.jpg);
   background-repeat: no-repeat;
 	background-size: cover;
@@ -80,7 +80,7 @@
   height: 100%;
   margin: 0;
 	z-index: 1;
-}
+} */
 .image8 {
   background-image: url(./images/renken.jpg);
   background-repeat: no-repeat;

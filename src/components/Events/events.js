@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./events.css";
-import { Link } from "react-router-dom";
 
 class Events extends Component {
   roseWagnerClick() {

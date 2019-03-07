@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./footer.css";
-import { SocialIcon } from "react-social-icons";
+// import { SocialIcon } from "react-social-icons";
 
 class Footer extends Component {
   facebookClick() {
@@ -25,27 +25,38 @@ class Footer extends Component {
         <div className="container">
           <div className="row">
             <div className="col l6 s12">
-              <div className="col l4 offset-l2 s12">
+              <div className="col l8 s12">
+                <h5 className="white-text">Who We Are</h5>
+
+                <ul>
+                  <li className="non-prof">
+                    <b>JUNCTION DANCE CO</b> is a 501(c)3 non profit
+                    organization with a mission to connect lives through
+                    performance and outreach.
+                  </li>
+                </ul>
+              </div>
+              <div className="col l4 s12">
                 <h5 className="white-text">The Company</h5>
                 <ul>
                   <li>
                     <a className="grey-text text-lighten-3" href="#!">
-                      About
+                      Junction Co
                     </a>
                   </li>
                   <li>
                     <a className="grey-text text-lighten-3" href="#!">
-                      Contact
+                      Junction 2
                     </a>
                   </li>
                   <li>
                     <a className="grey-text text-lighten-3" href="#!">
-                      Donate
+                      Jr Junction
                     </a>
                   </li>
                 </ul>
               </div>
-              <div className="col l4 offset-l2 s12">
+              {/* <div className="col l4 s12">
                 <h5 className="white-text">Social Media</h5>
                 <div className="logo center">
                   <SocialIcon
@@ -61,7 +72,7 @@ class Footer extends Component {
                     onClick={this.instagramClick.bind(this)}
                   />
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="col l6 s12">
               <div className="col l12 offset-l2 s12">
@@ -71,7 +82,7 @@ class Footer extends Component {
                     className="herc"
                     src={require("./images/herc.png")}
                     alt="The Herc"
-                    onClick={(this.hercClick.bind(this))}
+                    onClick={this.hercClick.bind(this)}
                   />
                   <img
                     className="millennium"
@@ -92,7 +103,10 @@ class Footer extends Component {
           </div>
         </div>
 
-        <div className="logo center">© 2019 Junction Dance Co</div>
+        <div className="logo center">
+          © 2019 Junction Dance Co - Salt Lake City, Utah -
+          JunctionDanceCo@gmail.com
+        </div>
       </footer>
     );
   }

@@ -6,7 +6,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Classes from "./pages/Classes";
 import Gallery from "./pages/Gallery";
-import Contact from "./pages/Contact";
+import Video from "./pages/Video";
+// import Contact from "./pages/Contact";
 
 class App extends Component {
   render() {
@@ -17,7 +18,9 @@ class App extends Component {
           <Route exact path="/about" component={About} />
           <Route exact path="/classes" component={Classes} />
           <Route exact path="/gallery" component={Gallery} />
-          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/videos" component={Video} />
+          {/* <Route exact path="/performances" component={Performance} /> */}
+          {/* <Route exact path="/contact" component={Contact} /> */}
         </Switch>
       </Router>
     );

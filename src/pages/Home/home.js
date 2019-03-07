@@ -1,49 +1,53 @@
 import React from "react";
 import { Container } from "../../components/Grid";
-import { Parallax } from "react-parallax";
+// import { Parallax } from "react-parallax";
 import { Link } from "react-router-dom";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import Events from "../../components/Events";
-import News from "../../components/News";
+// import News from "../../components/News";
+import Slideshow from "../../components/Slideshow";
 import "./home.css";
 
 const Home = props => (
   <React.Fragment>
     <Header />
-    <Parallax
+    <Slideshow />
+
+    {/* <Parallax
       bgImage={require("./images/junctionlogo.jpeg")}
       bgImageAlt="the crew"
-      strength={150}
+      strength={650}
+      bgImageSize={100}
       renderLayer={percentage => (
         <div
           style={{
             position: "absolute",
-            background: `rgba(0,0,0,0.6)`,
-            width: "100%",
-            height: "100%"
+            width: "80%",
+            height: "80%"
           }}
         />
       )}
     >
       <div
         style={{
-          height: "350px"
+          height: "550px"
         }}
       />
-      <div className="logo-box">
-        <h5 className="logo-title">
-          "Connecting Lives Through Performance and Outreach"
-        </h5>
-        <hr />
-        <Link to={"/classes"} class="waves-effect waves-light btn">
-          Upcoming Classes!
-        </Link>
-      </div>
-    </Parallax>
+
+		</Parallax> */}
+    <div className="logo-box">
+      <h5 className="logo-title">
+        "Connecting Lives Through Performance and Outreach"
+      </h5>
+      <hr />
+      <Link to={"/classes"} className="waves-effect waves-light btn">
+        Upcoming Classes!
+      </Link>
+    </div>
+    {/* <News /> */}
     <Container>
       <Events />
-      <News />
     </Container>
     <Footer />
   </React.Fragment>

@@ -1,12 +1,13 @@
-.event-box {
-	background-color: rgb(255,255,255,0.6);
-	padding: 1%;
-	margin: 2% 0 0 0;
-}
+/* .event-box { */
+	/* background-color: rgb(255,255,255,0.6); */
+	/* padding: 1%; */
+	/* margin: 2% 0 0 0; */
+/* } */
 
 .events-background {
   text-align: center;
-  height: 100%;
+	height: 100%;
+	margin: 2% 0 2% 0;
 }
 
 .events {

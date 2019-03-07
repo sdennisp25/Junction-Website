@@ -10,19 +10,29 @@ nav {
   animation: fadein 1s;
 }
 
+.main-logo {
+	width: 70%;
+}
+
 .list {
-	margin-right: 7%;
+	margin-right: 0;
 	font-family: 'Oswald', sans-serif;
 }
 
 .brand-logo {
-  margin-left: 7%;
   font-family: "Anton", sans-serif;
-  font-weight: 40px;
 }
 
 .nav-wrapper {
   background-color: black;
+}
+
+.nav-content {
+	margin: 0 1% 2% 0;
+}
+
+.nav-extended {
+	background-color: maroon;
 }
 
 @keyframes fadein {

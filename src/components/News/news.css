@@ -1,22 +1,84 @@
+.event-news {
+	/* margin: 0 5% 0 5%; */
+	background-color: black;
+	padding: 0 5% 0 5%;
+}
+
 .card-news {
-	box-shadow: 3px 3px 10px;
+  box-shadow: 3px 3px 10px;
+  height: 400px;
+  width: 310px;
 }
 
 .upcoming-event {
-	height: 100%;
-	width: 100%;
-}
-
-h6 {
-	background-color: rgb(37, 82, 0);
-	padding: 3%;
-	color: white;
-	text-align: center;
-	border: 1px solid black;
-	font-family: 'Anton', sans-serif;
-
+  height: 100%;
+  width: 100%;
 }
 
 .card-upcoming {
-	box-shadow: 2px 2px 5px;
+  box-shadow: 2px 2px 5px;
+}
+
+.trending {
+  margin-left: 0;
+}
+
+.card-text {
+  margin-bottom: 0;
+}
+
+h6 {
+  background-color: rgb(37, 82, 0);
+  padding: 3%;
+  color: white;
+  text-align: center;
+  border: 1px solid black;
+  font-family: "Anton", sans-serif;
+}
+
+h4 {
+  background-color: black;
+  color: white;
+  width: 50%;
+	text-align: center;
+	position: relative;
+	bottom: 100%;
+}
+
+h8 {
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	margin-top: 10%;
+}
+
+.first {
+	background-image: url(./images/jeffreyblue.jpg);
+  background-repeat: no-repeat;
+	background-size: cover;
+	margin: auto;
+	padding: 2%;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.second {
+  background-image: url(./images/charity.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+	margin: auto;
+	padding: 2%;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.third {
+  background-image: url(./images/tristan.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+	margin: auto;
+	padding: 2%;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
