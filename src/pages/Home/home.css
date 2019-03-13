@@ -1,10 +1,12 @@
 h5 {
 	color: white;
 	font-family: "Lobster", cursive;
+	/* font-family: 'Source Sans Pro', sans-serif; */
 }
 
 hr {
-	width: 20%;
+	margin-top: 2%;
+	width: 5%;
 }
 
 .btn {
@@ -14,15 +16,16 @@ hr {
 }
 
 .logo-title {
-	color: black;
-	/* font-style: italic; */
-	font-size: 50px;
+	color: white;
+	font-size: 40px;
 	width: 90%;
 	margin: 0 auto;
 }
 
 .logo-box {
+	background-color: maroon;
 	text-align: center;
-	text-shadow: 2px 2px gray;
-	margin: 2% 0 5% 0;
+	text-shadow: 2px 2px black;
+	margin: 0.5% 0 0.5% 0;
+	padding: 5%;
 }

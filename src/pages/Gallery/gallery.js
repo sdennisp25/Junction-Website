@@ -45,14 +45,9 @@ const Gallery = props => (
               <div className="image6" />
             </div>
           </div>
-          {/* <div className="col s12 m3">
-            <div className="card card-gallery">
-              <div className="image7" />
-            </div>
-          </div> */}
           <div className="col s12 m3">
             <div className="card card-gallery">
-              <div className="image8" />
+              <div className="image7" />
             </div>
           </div>
         </div>

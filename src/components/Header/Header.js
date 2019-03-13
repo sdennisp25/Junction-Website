@@ -30,24 +30,27 @@ class Header extends Component {
               network="email"
               bgColor="white"
               style={{ height: 20, width: 20, margin: 3 }}
-              onClick={this.facebookClick.bind(this)}
             />
+            JunctionDanceCo@Gmail.com
             <SocialIcon
               network="facebook"
               bgColor="white"
               style={{ height: 20, width: 20, margin: 3 }}
               onClick={this.facebookClick.bind(this)}
             />
+            Facebook
             <SocialIcon
               network="instagram"
               bgColor="white"
               style={{ height: 20, width: 20, margin: 3 }}
               onClick={this.instagramClick.bind(this)}
             />
+            Instagram
           </div>
         </div>
         <div className="nav-wrapper">
           {/* <div className="brand-logo left">Junction Dance Co </div> */}
+          <div className="brand-logo left">JUNCTION DANCE CO</div>
           <div className="brand-logo center">
             <img
               className="main-logo"

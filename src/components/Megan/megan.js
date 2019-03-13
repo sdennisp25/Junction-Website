@@ -7,7 +7,7 @@ class Megan extends Component {
     return (
       <React.Fragment>
         <div class="megans-box">
-				<h3>Founder</h3>
+				<h3>Artistic Director and Founder</h3>
 				<img src={MeganPhoto} class="megans-picture" alt="Megan" />
           <p>
             Megan Adelsberger is the Director and Founder of Junction Dance Company. She began her dance training at Elower-Sicilia

@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "../../components/Grid";
 // import { Parallax } from "react-parallax";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import Events from "../../components/Events";
@@ -41,14 +41,12 @@ const Home = props => (
         "Connecting Lives Through Performance and Outreach"
       </h5>
       <hr />
-      <Link to={"/classes"} className="waves-effect waves-light btn">
+      {/* <Link to={"/classes"} className="waves-effect waves-light btn">
         Upcoming Classes!
-      </Link>
+      </Link> */}
     </div>
+    <Events />
     {/* <News /> */}
-    <Container>
-      <Events />
-    </Container>
     <Footer />
   </React.Fragment>
 );

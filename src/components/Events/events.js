@@ -16,7 +16,7 @@ class Events extends Component {
   render() {
     return (
       <div className="events-background">
-        <div className="row event-box">
+        <div className="row">
           <div className="col s12 m6">
             <img
               className="event-image"
@@ -25,17 +25,15 @@ class Events extends Component {
             />
           </div>
           <div className="col s12 m6">
-            <div className="events">
-              <img
-                className="event-image"
-                alt=""
-                src={require("./images/event.png")}
-                onClick={this.roseWagnerClick.bind(this)}
-              />
-            </div>
+            <img
+              className="event-image"
+              alt=""
+              src={require("./images/event.png")}
+              onClick={this.roseWagnerClick.bind(this)}
+            />
 
             <button
-              className=" event-button waves-effect waves-light btn-large"
+              className="event-button waves-effect waves-light btn-large"
               onClick={this.roseWagnerClick.bind(this)}
             >
               Directions

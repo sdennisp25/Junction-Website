@@ -16,15 +16,20 @@ nav {
 
 .list {
 	margin-right: 0;
-	font-family: 'Oswald', sans-serif;
+	/* font-family: 'Oswald', sans-serif; */
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .brand-logo {
-  font-family: "Anton", sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.left {
+	margin-left: 1%;
 }
 
 .nav-wrapper {
-  background-color: black;
+	background-color: rgb(7, 7, 7);
 }
 
 .nav-content {
