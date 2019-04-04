@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { SocialIcon } from "react-social-icons";
+// import { SocialIcon } from "react-social-icons";
 
 import "./Header.css";
 
@@ -24,7 +24,7 @@ class Header extends Component {
   render() {
     return (
       <nav className="nav-extended">
-        <div className="nav-content">
+        {/* <div className="nav-content">
           <div className="right">
             <SocialIcon
               network="email"
@@ -47,7 +47,7 @@ class Header extends Component {
             />
             Instagram
           </div>
-        </div>
+        </div> */}
         <div className="nav-wrapper">
           {/* <div className="brand-logo left">Junction Dance Co </div> */}
           <div className="brand-logo left">JUNCTION DANCE CO</div>
