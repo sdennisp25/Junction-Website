@@ -104,8 +104,7 @@ class Footer extends Component {
         </div>
 
         <div className="logo center">
-          © 2019 Junction Dance Co - Salt Lake City, Utah -
-          JunctionDanceCo@gmail.com
+          © 2019 Junction Dance Co - Salt Lake City, Utah
         </div>
       </footer>
     );

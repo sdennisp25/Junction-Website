@@ -1,5 +1,8 @@
 .slideshow {
-	padding: 0 13% 0 13%;
-	/* background-color:  rgb(0, 0, 0); */
+	padding: 0 12% 2% 12%;
 	background-color: #e8e6d9;
+}
+
+.custom-bg {
+	margin-top: 15%;
 }

@@ -6,8 +6,8 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import News from "../../components/News";
 import Slideshow from "../../components/Slideshow";
+import Audition from "../../components/Audition";
 import "./home.css";
-
 
 const Home = props => (
   <React.Fragment>
@@ -47,22 +47,7 @@ const Home = props => (
     </div> */}
     {/* <Events /> */}
     <News />
-    <Parallax
-      // bgImage={require("./images/junctionlogo.jpeg")}
-      bgImageAlt="the crew"
-      strength={150}
-      bgImageSize={100}
-      renderLayer={percentage => (
-        <div
-          style={{
-            position: "absolute",
-            width: "80%",
-            height: "100%",
-            margin: "10%"
-          }}
-        />
-      )}
-    >
+    <Parallax bgImageAlt="the crew" strength={350} bgImageSize={100}>
       <div
         style={{
           height: "550px"
@@ -75,8 +60,31 @@ const Home = props => (
         />
       </Background>
       <div className="news-title">
-        <h3>Coming Soon!</h3>
-
+        <h3>Zero Flux</h3>
+        <button className="btn">More Info</button>
+      </div>
+    </Parallax>
+    <Audition />
+    <Parallax
+      bgImageAlt="the crew"
+      strength={350}
+      bgImageSize={100}
+    >
+      <div
+        style={{
+          height: "400px",
+          width: "100%"
+        }}
+      />
+      <Background className="custom-bg donation-image">
+        <img
+          src="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/55949862_2172770866095297_789774469177540608_o.jpg?_nc_cat=101&_nc_ht=scontent-dfw5-2.xx&oh=2e3eae43aef8cc8bfc6337fcc3ca52f1&oe=5D389A5E"
+          alt="fill murray"
+        />
+      </Background>
+      <div className="news-title">
+        <h3>Zero Flux</h3>
+        <button className="btn">More Info</button>
       </div>
     </Parallax>
     <Footer />
