@@ -24,3 +24,16 @@ h5 {
 	margin: 0.5% 0 0.5% 0;
 	padding: 5%;
 }
+
+.show-title {
+	background-color: hsl(208, 100%, 97%, 0.5);
+	border: 2px solid black;
+	text-align: center;
+	margin: 0 auto;
+	padding: 1%;
+	width: 15%;
+}
+
+.custom-bg {
+	margin-top: 15%;
+}

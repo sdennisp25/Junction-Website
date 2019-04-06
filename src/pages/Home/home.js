@@ -50,7 +50,7 @@ const Home = props => (
     <Parallax bgImageAlt="the crew" strength={350} bgImageSize={100}>
       <div
         style={{
-          height: "550px"
+          height: "500px"
         }}
       />
       <Background className="custom-bg">
@@ -59,21 +59,21 @@ const Home = props => (
           alt="fill murray"
         />
       </Background>
-      <div className="news-title">
+      <div className="show-title">
         <h3>Zero Flux</h3>
-        <button className="btn">More Info</button>
+        <Link
+          target="_blank"
+          to={"https://www.facebook.com/events/363448040931390/"}
+        >
+          <button className="btn">More Details</button>
+        </Link>
       </div>
     </Parallax>
     <Audition />
-    <Parallax
-      bgImageAlt="the crew"
-      strength={350}
-      bgImageSize={100}
-    >
+    <Parallax bgImageAlt="the crew" strength={350} bgImageSize={100}>
       <div
         style={{
           height: "400px",
-          width: "100%"
         }}
       />
       <Background className="custom-bg donation-image">
@@ -82,10 +82,6 @@ const Home = props => (
           alt="fill murray"
         />
       </Background>
-      <div className="news-title">
-        <h3>Zero Flux</h3>
-        <button className="btn">More Info</button>
-      </div>
     </Parallax>
     <Footer />
   </React.Fragment>

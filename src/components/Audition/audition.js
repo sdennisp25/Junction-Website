@@ -10,8 +10,8 @@ class Audition extends Component {
       <React.Fragment>
         <div className="event-box donation-box">
           <div className="row">
-            <div className="col s12 m1" />
-            <div className="col s12 m5">
+            <div className="col s12 m2" />
+            <div className="col s12 m4">
               <span className="card-title card-text">
                 <h5>Jr & Teen Auditions</h5>
                 <ul>
@@ -29,14 +29,11 @@ class Audition extends Component {
                   </li>
                 </ul>
                 <h8>
-                  We are excited to announce that we have partnered with Smith's
-                  for donations! Sign up and/or register for a Smith's Rewards
-                  Card, and a percentage of your purchaces will go towards
-                  Junction Dance Co!
+                  We are excited to have Season 3 auditions, and we would love for you to be a part of it!
                 </h8>
               </span>
             </div>
-            <div className="col s12 m5">
+            <div className="col s12 m4">
               <span className="card-title card-text">
                 <h5>Junction Dance Co & Junction 2 Auditions</h5>
                 <ul>
