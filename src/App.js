@@ -6,7 +6,6 @@ import About from "./pages/About";
 import Junction from "./pages/Junction";
 import Gallery from "./pages/Gallery";
 import Video from "./pages/Video";
-import Performances from "./pages/Performances";
 // import Contact from "./pages/Contact";
 
 class App extends Component {
@@ -19,7 +18,6 @@ class App extends Component {
           <Route exact path="/junction" component={Junction} />
           <Route exact path="/gallery" component={Gallery} />
           <Route exact path="/videos" component={Video} />
-          <Route exact path="/performances" component={Performances} />
           {/* <Route exact path="/contact" component={Contact} /> */}
         </Switch>
       </Router>

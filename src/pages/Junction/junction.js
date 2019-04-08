@@ -12,20 +12,7 @@ const Junction = props => (
         <h3>Junction Company</h3>
 
         <div className="row">
-          <div className="col s12 m3">
-            <div className="card">
-              <div className="card-image">
-                <img
-                  className="junction-image"
-									src="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/37358749_1818438448195209_7028300636546400256_n.jpg?_nc_cat=103&_nc_ht=scontent-dfw5-2.xx&oh=14ee2671b1982235694adf99e6c18906&oe=5D387DF6"
-									alt="Megan"
-                />
-                <div className="overlay">
-                  <div className="text">Megan</div>
-                </div>
-              </div>
-            </div>
-          </div>
+  
 
           <div className="col s12 m3">
             <div className="card">
@@ -65,6 +52,20 @@ const Junction = props => (
                 />
                 <div className="overlay">
                   <div className="text">Jessica</div>
+                </div>
+              </div>
+            </div>
+          </div>
+					<div className="col s12 m3">
+            <div className="card">
+              <div className="card-image">
+                <img
+                  className="junction-image"
+									src="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/37358749_1818438448195209_7028300636546400256_n.jpg?_nc_cat=103&_nc_ht=scontent-dfw5-2.xx&oh=14ee2671b1982235694adf99e6c18906&oe=5D387DF6"
+									alt="Megan"
+                />
+                <div className="overlay">
+                  <div className="text">Megan</div>
                 </div>
               </div>
             </div>

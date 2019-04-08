@@ -57,8 +57,6 @@ class Home extends Component {
               alt="fill murray"
             />
           </Background>
-					<div className="donation-image" />
-
         </Parallax>
         <Footer />
       </React.Fragment>
