@@ -19,7 +19,7 @@ class Audition extends Component {
                     <b>Date:</b> June 28th (Friday)
                   </li>
                   <li>
-                    <b>Time: </b>TBD
+                    <b>Time: </b>11:30 AM
                   </li>
                   <li>
                     <b>Location:</b> Millenium Dance Complex Salt Lake City
@@ -28,9 +28,9 @@ class Audition extends Component {
                     <b>Ages:</b> 9-14
                   </li>
                 </ul>
-                <h8>
+                {/* <h8>
                   We are excited to have Season 3 auditions, and we would love for you to be a part of it!
-                </h8>
+                </h8> */}
               </span>
             </div>
             <div className="col s12 m4">
@@ -49,7 +49,7 @@ class Audition extends Component {
                   <li>
                     <b>Ages:</b> 15+
                   </li>
-                  <li>
+                  {/* <li>
                     <b>Agenda:</b>
                     <li> 11:30 AM - Registration</li>
                     <li>
@@ -58,7 +58,7 @@ class Audition extends Component {
                     </li>
                     <li>3:30 PM - Registration</li>
                     <li> 4:00 - 5:00 PM - Freestyle/Breaking</li>
-                  </li>
+                  </li> */}
                 </ul>
               </span>
             </div>

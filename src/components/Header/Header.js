@@ -9,18 +9,13 @@ import "./Header.css";
 // };
 
 class Header extends Component {
-  constructor() {
-    super();
-    this.state = {
-      opacity: 1
-    };
-  }
   facebookClick() {
     window.open("https://www.facebook.com/junctiondanceco/", "_blank");
   }
   instagramClick() {
     window.open("https://www.instagram.com/junctiondanceco/", "_blank");
   }
+
   render() {
     return (
       <nav className="nav-extended">
@@ -70,13 +65,13 @@ class Header extends Component {
               <Link to={"/about"}>About</Link>
             </li>
             <li>
+              <Link to={"/junction"}>Junction</Link>
+            </li>
+            <li>
               <Link to={"/gallery"}>Gallery</Link>
             </li>
             <li>
-              <Link to={"/videos"}>Videos</Link>
-            </li>
-            <li>
-              <Link to={"/performances"}>Performances</Link>
+              <Link to={"/videos"}>Media</Link>
             </li>
           </ul>
         </div>

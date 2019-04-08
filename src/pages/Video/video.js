@@ -29,6 +29,12 @@ class Video extends Component {
                 style={videoStyle}
               />
             </div>
+            <div className="col s4">
+              <ReactPlayer
+                url="https://www.youtube.com/watch?v=QYXumdnedAQ"
+                style={videoStyle}
+              />
+            </div>
           </div>
         </div>
         <Footer />
