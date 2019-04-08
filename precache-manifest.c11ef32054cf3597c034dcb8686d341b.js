@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "75e7c4b28c87787564f09576fbc8a9dc",
-    "url": "/Junction-Website/static/media/rebirth.75e7c4b2.png"
+    "revision": "a30d759b0cb6290174721c2c2d6735c4",
+    "url": "/Junction-Website/static/media/tristan.a30d759b.jpg"
   },
   {
-    "revision": "0f21946d60de12a2b403",
-    "url": "/Junction-Website/static/css/main.0defe7e4.chunk.css"
+    "revision": "bd7a4b3da1471296462c",
+    "url": "/Junction-Website/static/css/main.8ee33acf.chunk.css"
   },
   {
     "revision": "ef995bd18e6e286b7e99",
@@ -16,12 +16,8 @@ self.__precacheManifest = [
     "url": "/Junction-Website/static/media/jeffrey.4373081c.jpeg"
   },
   {
-    "revision": "a5e458e3bef9c3430b09",
-    "url": "/Junction-Website/static/js/2.a5e458e3.chunk.js"
-  },
-  {
-    "revision": "cff726497a1cda141a942c108e451975",
-    "url": "/Junction-Website/static/media/DSC00002.cff72649.jpg"
+    "revision": "d944bf80e4b705c88cff",
+    "url": "/Junction-Website/static/js/2.d944bf80.chunk.js"
   },
   {
     "revision": "d889e8d8dc7527c108b83158beb62a17",
@@ -36,6 +32,10 @@ self.__precacheManifest = [
     "url": "/Junction-Website/static/media/paige.b5780669.jpg"
   },
   {
+    "revision": "cff726497a1cda141a942c108e451975",
+    "url": "/Junction-Website/static/media/DSC00002.cff72649.jpg"
+  },
+  {
     "revision": "8a89613ed270d8113c5b1f1b5a7107af",
     "url": "/Junction-Website/static/media/megan1.8a89613e.jpg"
   },
@@ -48,12 +48,16 @@ self.__precacheManifest = [
     "url": "/Junction-Website/static/media/millennium.99c77a03.png"
   },
   {
-    "revision": "0f21946d60de12a2b403",
-    "url": "/Junction-Website/static/js/main.0f21946d.chunk.js"
+    "revision": "b5053f0afcf322c5adbedeb391f1037f",
+    "url": "/Junction-Website/static/media/charity.b5053f0a.jpg"
   },
   {
-    "revision": "5f30299af382c09c71e465ce9ba46c39",
-    "url": "/Junction-Website/static/media/event.5f30299a.png"
+    "revision": "bd7a4b3da1471296462c",
+    "url": "/Junction-Website/static/js/main.bd7a4b3d.chunk.js"
+  },
+  {
+    "revision": "0225bd36a503ecd70fe1c86b60cce7d1",
+    "url": "/Junction-Website/static/media/jeffreyblue.0225bd36.jpg"
   },
   {
     "revision": "08eee9c7fdfc67460723a7e245c6c135",
@@ -92,11 +96,11 @@ self.__precacheManifest = [
     "url": "/Junction-Website/static/media/audrey.c6ac14e2.jpeg"
   },
   {
-    "revision": "a5e458e3bef9c3430b09",
+    "revision": "d944bf80e4b705c88cff",
     "url": "/Junction-Website/static/css/2.fd925333.chunk.css"
   },
   {
-    "revision": "ecdcae8b0dd26b011d9b84595cc81bc7",
+    "revision": "14e788aaaa6ea9d2d7d5801f2f36d088",
     "url": "/Junction-Website/index.html"
   }
 ];
