@@ -15,29 +15,17 @@ nav {
 }
 
 .list {
-	margin-right: 0;
 	/* font-family: 'Oswald', sans-serif; */
-	font-family: 'Source Sans Pro', sans-serif;
+	/* font-family: 'Source Sans Pro', sans-serif; */
+	font-family: 'Montserrat', sans-serif;
 }
 
 .brand-logo {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
-.left {
-	margin-left: 1%;
-}
-
-.nav-wrapper {
-	background-color: rgb(7, 7, 7);
-}
-
-.nav-content {
-	margin: 0 1% 2% 0;
-}
-
 .nav-extended {
-	background-color: maroon;
+	background-color: rgb(7, 7, 7);
 }
 
 @keyframes fadein {

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { SocialIcon } from "react-social-icons";
+import { Container } from "../../components/Grid";
 
 import "./Header.css";
 
@@ -18,64 +18,35 @@ class Header extends Component {
 
   render() {
     return (
-      <nav className="nav-extended">
-        <div className="nav-content">
-          <div className="right">
-            <SocialIcon
-              network="email"
-              bgColor="white"
-              style={{ height: 20, width: 20, margin: 3 }}
-            />
-            JunctionDanceCo@Gmail.com
-            <SocialIcon
-              network="facebook"
-              bgColor="white"
-              style={{ height: 20, width: 20, margin: 3 }}
-              onClick={this.facebookClick.bind(this)}
-            />
-            Facebook
-            <SocialIcon
-              network="instagram"
-              bgColor="white"
-              style={{ height: 20, width: 20, margin: 3 }}
-              onClick={this.instagramClick.bind(this)}
-            />
-            Instagram
-          </div>
-        </div>
-        <div className="nav-wrapper">
-          {/* <div className="brand-logo left">Junction Dance Co </div> */}
-          <div className="brand-logo left">JUNCTION DANCE CO</div>
-          <div className="brand-logo center">
-            <img
-              className="main-logo"
-              src={require("./images/logo.png")}
-              alt="The Main Logo"
-              // onClick={this.hercClick.bind(this)}
-            />
-          </div>
-          {/* <a href="#" data-target="mobile-demo" className="sidenav-trigger">
-            <i className="material-icons">menu</i>
-          </a> */}
-          <ul className="list right hide-on-med-and-down">
-            <li>
-              <Link to={"/"}>Home</Link>
-            </li>
-            <li>
-              <Link to={"/about"}>About</Link>
-            </li>
-            <li>
-              <Link to={"/junction"}>Junction</Link>
-            </li>
-            <li>
-              <Link to={"/gallery"}>Gallery</Link>
-            </li>
-            <li>
-              <Link to={"/videos"}>Media</Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
+				<nav className="nav-extended">
+			<Container>
+				<div className="brand-logo">JUNCTION DANCE CO</div>
+				<div className="brand-logo center">
+					<img
+						className="main-logo"
+						src={require("./images/logo.png")}
+						alt="The Main Logo"
+						/>
+				</div>
+				<ul className="list right hide-on-med-and-down">
+					<li>
+						<Link to={"/"}>HOME</Link>
+					</li>
+					<li>
+						<Link to={"/about"}>ABOUT</Link>
+					</li>
+					<li>
+						<Link to={"/junction"}>JUNCTION</Link>
+					</li>
+					{/* <li>
+						<Link to={"/gallery"}>GALLERY</Link>
+					</li> */}
+					<li>
+						<Link to={"/videos"}>MEDIA</Link>
+					</li>
+				</ul>
+			</Container>
+				</nav>
     );
   }
 }

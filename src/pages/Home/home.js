@@ -9,10 +9,31 @@ import Slideshow from "../../components/Slideshow";
 import Audition from "../../components/Audition";
 import "./home.css";
 
+const greyBox = {
+	background: "rgb(0,0,0,0.7)",
+	width: "100%",
+	height: "100%",
+  position: "absolute",
+  top: "50%",
+  left: "50%",
+  transform: "translate(-50%,-50%)"
+};
+
+const greyBoxText = {
+	color: "white",
+  position: "absolute",
+  top: "50%",
+  left: "50%",
+  transform: "translate(-50%,-50%)"
+};
+
 class Home extends Component {
-  eventClick() {
-    window.open("https://www.facebook.com/events/363448040931390/", "_blank");
-  }
+
+  ticketClick() {
+    window.open("https://arttix.artsaltlake.org/single/EventDetail.aspx?p=23369", "_blank");
+	}
+	
+	
   render() {
     return (
       <React.Fragment>
@@ -37,25 +58,31 @@ class Home extends Component {
               target="_blank"
               to={"https://www.facebook.com/events/363448040931390/"}
             >
-              <button className="btn" onClick={this.eventClick.bind(this)}>
-                More Details
+              <button className="btn" onClick={this.ticketClick.bind(this)}>
+                Get Tickets
               </button>
             </Link>
           </div>
         </Parallax>
         <Audition />
-        <Parallax bgImageAlt="the crew" strength={300} bgImageSize={100}>
-          <div
+				<Parallax bgImageAlt="the crew" strength={500} bgImageSize={300} >
+					<div style={{ height: 200 }}>
+        		<div style={greyBox}></div>
+      		</div>
+					<div style={{ height: 30 }}>
+        		<div style={greyBoxText}>Where there is unity there is always victory. -Publilius Syrus</div>
+      		</div>
+					<div
             style={{
-              height: "600px"
+							height: "150px"
             }}
           />
 
           <Background className="custom-bg">
             <img
-              src="https://scontent.fslc1-2.fna.fbcdn.net/v/t1.0-9/55949862_2172770866095297_789774469177540608_o.jpg?_nc_cat=101&_nc_ht=scontent.fslc1-2.fna&oh=be6c4041cf1c8940e699cd8417c26c3e&oe=5D389A5E"
+              src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/51805370_2103876356318082_7433703759257010176_o.jpg?_nc_cat=108&_nc_ht=scontent-sjc3-1.xx&oh=e5ea542da020cf110054f172761a7302&oe=5D6454A2"
               alt="fill murray"
-            />
+            /> 
           </Background>
         </Parallax>
         <Footer />

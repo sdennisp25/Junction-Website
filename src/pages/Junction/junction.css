@@ -3,12 +3,12 @@
 }
 
 .junction-image {
-	box-shadow: 3px 3px 10px;
+	box-shadow: 5px 5px 10px;
 	height: 100%;
 }
 
 .junction-card {
-	height: 300px;
+	height: 284px;
 }
 
 .overlay {

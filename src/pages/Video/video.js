@@ -17,23 +17,25 @@ class Video extends Component {
         <div className="video-box">
           <div className="row">
             <h3>Videos</h3>
-            <div className="col s4">
+            <div className="col s6">
               <ReactPlayer
                 url="https://www.youtube.com/watch?v=HXfcsjB2rdA"
                 style={videoStyle}
               />
             </div>
-            <div className="col s4">
+            <div className="col s6">
               <ReactPlayer
                 url="https://www.youtube.com/watch?v=4JzeWneZjmM"
                 style={videoStyle}
               />
             </div>
-            <div className="col s4">
-              <ReactPlayer
-                url="https://www.youtube.com/watch?v=QYXumdnedAQ"
-                style={videoStyle}
-              />
+            <div className="row">
+              <div className="col 4">
+                <ReactPlayer
+                  url="https://www.youtube.com/watch?v=QYXumdnedAQ"
+                  style={videoStyle}
+                />
+              </div>
             </div>
           </div>
         </div>

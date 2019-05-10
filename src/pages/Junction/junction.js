@@ -60,7 +60,7 @@ const Junction = props => (
             <div className="card">
               <div className="card-image">
                 <img
-                  className="junction-image"
+                  className="junction-image junction-card"
 									src="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/37358749_1818438448195209_7028300636546400256_n.jpg?_nc_cat=103&_nc_ht=scontent-dfw5-2.xx&oh=14ee2671b1982235694adf99e6c18906&oe=5D387DF6"
 									alt="Megan"
                 />
@@ -90,7 +90,7 @@ const Junction = props => (
               <div className="card">
                 <div className="card-image">
                   <img
-                    className="junction-image"
+                    className="junction-image junction-card"
 										src="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/37175697_1814399035265817_7437609048465211392_n.jpg?_nc_cat=103&_nc_ht=scontent-dfw5-2.xx&oh=c837c824a2d2f1fa4c153cf6e2c06ac2&oe=5D433DD3"
 										alt="Kiana"
                   />
@@ -104,7 +104,7 @@ const Junction = props => (
               <div className="card">
                 <div className="card-image">
                   <img
-                    className="junction-image"
+                    className="junction-image junction-card"
 										src="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/37626351_1825416454164075_6129328960330268672_n.jpg?_nc_cat=103&_nc_ht=scontent-dfw5-2.xx&oh=6649d6cb46c66ab359f3892dffbad96a&oe=5D429B43"
 										alt="Tristan"
                   />
