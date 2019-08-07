@@ -1,6 +1,7 @@
 .slideshow {
-	padding: 0 12% 2% 12%;
-	background-color: #e8e6d9;
+	padding: 0 14% 2% 14%;
+	/* background-color: #e8e6d9; */
+	background-color: rgba(0, 0, 0, 0.911);
 }
 
 .custom-bg {

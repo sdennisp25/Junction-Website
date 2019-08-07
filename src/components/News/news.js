@@ -10,7 +10,9 @@ class News extends Component {
           <div className="row">
             <div className="col s12 m4">
               <div className="news-title">
-                <h5 className="statement">"Connecting Lives Through Performance and Outreach"</h5>
+                <h5 className="statement">
+                  "Connecting Lives Through Performance and Outreach"
+                </h5>
                 {/* <Link to={"/classes"} className="waves-effect waves-light btn">
                   Upcoming Classes!
                 </Link> */}

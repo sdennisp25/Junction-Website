@@ -6,19 +6,19 @@ import "react-image-gallery/styles/css/image-gallery.css";
 const images = [
   {
     original: require("./images/DSC00128.jpg"),
-    thumbnail: require("./images/DSC00128.jpg")
+    // thumbnail: require("./images/DSC00128.jpg")
   },
   {
     original: require("./images/DSC00241.jpg"),
-    thumbnail: require("./images/DSC00241.jpg")
+    // thumbnail: require("./images/DSC00241.jpg")
   },
   {
     original: require("./images/paige.jpg"),
-    thumbnail: require("./images/paige.jpg")
+    // thumbnail: require("./images/paige.jpg")
   },
   {
     original: require("./images/DSC00002.jpg"),
-    thumbnail: require("./images/DSC00002.jpg")
+    // thumbnail: require("./images/DSC00002.jpg")
   }
 ];
 
@@ -31,7 +31,9 @@ class Slideshow extends Component {
           autoPlay={true}
           showPlayButton={false}
           showFullscreenButton={false}
-          showNav={false}
+					showNav={false}
+					showBullets={true}
+					showThumbnails={false}
         />
       </div>
     );

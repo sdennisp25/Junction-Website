@@ -10,9 +10,9 @@ import Audition from "../../components/Audition";
 import "./home.css";
 
 const greyBox = {
-	background: "rgb(0,0,0,0.7)",
-	width: "100%",
-	height: "100%",
+  background: "rgb(0,0,0,0.7)",
+  width: "100%",
+  height: "100%",
   position: "absolute",
   top: "50%",
   left: "50%",
@@ -20,7 +20,7 @@ const greyBox = {
 };
 
 const greyBoxText = {
-	color: "white",
+  color: "white",
   position: "absolute",
   top: "50%",
   left: "50%",
@@ -28,18 +28,19 @@ const greyBoxText = {
 };
 
 class Home extends Component {
-
   ticketClick() {
-    window.open("https://arttix.artsaltlake.org/single/EventDetail.aspx?p=23369", "_blank");
-	}
-	
-	
+    window.open(
+      "https://arttix.artsaltlake.org/single/EventDetail.aspx?p=23369",
+      "_blank"
+    );
+  }
+
   render() {
     return (
       <React.Fragment>
         <Header />
         <Slideshow />
-        <News />
+        <Audition />
         <Parallax bgImageAlt="the crew" strength={350} bgImageSize={100}>
           <div
             style={{
@@ -52,7 +53,7 @@ class Home extends Component {
               alt="fill murray"
             />
           </Background>
-          <div className="show-title">
+          {/* <div className="show-title">
             <h3>Zero Flux</h3>
             <Link
               target="_blank"
@@ -62,19 +63,21 @@ class Home extends Component {
                 Get Tickets
               </button>
             </Link>
-          </div>
+          </div> */}
         </Parallax>
-        <Audition />
-				<Parallax bgImageAlt="the crew" strength={500} bgImageSize={300} >
-					<div style={{ height: 200 }}>
-        		<div style={greyBox}></div>
-      		</div>
-					<div style={{ height: 30 }}>
-        		<div style={greyBoxText}>Where there is unity there is always victory. -Publilius Syrus</div>
-      		</div>
-					<div
+        <News />
+        <Parallax bgImageAlt="the crew" strength={500} bgImageSize={300}>
+          <div style={{ height: 200 }}>
+            <div style={greyBox} />
+          </div>
+          <div style={{ height: 30 }}>
+            <div style={greyBoxText}>
+              Where there is unity there is always victory. -Publilius Syrus
+            </div>
+          </div>
+          <div
             style={{
-							height: "150px"
+              height: "150px"
             }}
           />
 
@@ -82,7 +85,7 @@ class Home extends Component {
             <img
               src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/51805370_2103876356318082_7433703759257010176_o.jpg?_nc_cat=108&_nc_ht=scontent-sjc3-1.xx&oh=e5ea542da020cf110054f172761a7302&oe=5D6454A2"
               alt="fill murray"
-            /> 
+            />
           </Background>
         </Parallax>
         <Footer />

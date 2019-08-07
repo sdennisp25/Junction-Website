@@ -48,7 +48,7 @@ const About = props => (
           >
             <div
               style={{
-                height: "300px",
+                height: "300px"
               }}
             />
           </Parallax>
